@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.jumbotron {
+    display: flex;
+    background-image: url('../Images/james-harrison-vpOeXr5wmR4-unsplash.jpg');
+    background-size: cover;
+    height: 600px;
+    align-items: center;
+    color: white;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+}
+
+.jumbotron h3 {
+    margin: 0 0 20px;
+    color: white;    
+}
