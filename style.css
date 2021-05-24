@@ -2,6 +2,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+header { 
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -10,11 +15,13 @@ nav {
 
 .jumbotron {
     display: flex;
-    background-image: url('../Images/james-harrison-vpOeXr5wmR4-unsplash.jpg');
+    background-image: url('Images/james-harrison-vpOeXr5wmR4-unsplash medium.jpg');
     background-size: cover;
-    height: 600px;
+    height: 400px;
     align-items: center;
     color: white;
+    border: 20px;
+    border-color: grey;
 }
 
 .jumbotron h2 {
@@ -27,4 +34,14 @@ nav {
 .jumbotron h3 {
     margin: 0 0 20px;
     color: white;    
+}
+
+#pages  {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#pages:active {
+    padding-top: 5px;
 }
