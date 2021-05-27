@@ -58,3 +58,14 @@ footer {
 #thimo {
     margin-bottom: 10px;
 }
+
+#experience {
+    justify-content: center;
+}
+
+#picexp {
+    max-height: 200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
